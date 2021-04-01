@@ -1,7 +1,9 @@
-/* eslint-disable vue/no-parsing-error */
 <template>
 
-   <v-btn @click="increase()">{{inc}}</v-btn>
+   <v-btn class="button_test" @click="increase()">{{inc}}</v-btn>
+
+   <div class="testing">{{a}}</div>
+
 
 </template>
 
@@ -26,6 +28,17 @@ export default {
   }
 </script>
 
-<style scoped>
+<style lang="scss">
+
+.button_test{
+  
+  display: flex;
+  align-items: center;
+
+}
+
+.testing{
+  text-align: center;
+}
 
 </style>
