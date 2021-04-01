@@ -1,4 +1,3 @@
-/* eslint-disable vue/no-parsing-error */
 <template>
 
    <v-btn @click="increas()">{{hello}}</v-btn>
